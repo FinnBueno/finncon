@@ -12,8 +12,8 @@ export const Navbar: FC = () => (
       />
       <BSNavbar.Collapse id="site-navigation">
         <Navigation>
-          <NavigationLink href="/verblijf.html">Verblijf</NavigationLink>
-          <NavigationLink href="/activiteiten.html">
+          <NavigationLink href="/finncon/verblijf.html">Verblijf</NavigationLink>
+          <NavigationLink href="/finncon/activiteiten.html">
             Activiteiten
           </NavigationLink>
         </Navigation>
