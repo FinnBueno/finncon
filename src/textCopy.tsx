@@ -90,6 +90,10 @@ export const textCopy = {
         je moet er komen enzo, maar het verblijf zelf is gratis. Hoe we het doen
         met boodschappen en gezamenlijk avondeten vogelen we nog wel even uit.
       </p>
+      <p>
+        Je kan t zo duur maken als je zelf wil! Zeker als je samen met mensen
+        heen en terug reist moet het goed te doen zijn {"<3"}
+      </p>
     </>
   ),
   whatToDo: (

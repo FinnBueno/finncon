@@ -6,6 +6,7 @@ import { Section } from "./components/Section";
 import { textCopy } from "./textCopy";
 import what from "./assets/images/what.jpg";
 import kassaImg from "./assets/images/kassa.jpg";
+import costsImg from "./assets/images/kosten.jpeg";
 
 const App: FC = () => (
   <>
@@ -38,6 +39,8 @@ const App: FC = () => (
         id="transport"
         title="Wat kost dat dan?"
         description={textCopy.costs}
+        image={costsImg}
+        alt="Kosten"
       />
       <Section
         id="transport"

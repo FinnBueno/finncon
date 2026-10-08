@@ -66,12 +66,12 @@ const activities: { left: ActivityItem[]; right: ActivityItem[] } = {
       imageAlt: "Concert",
     },
     {
-      title: "Going out 🍷",
+      title: "Uitgaan 🍷",
       description: (
         <>
-          Ik was te jong om toen der tijd hiervan te genieten, maar ik verneem
-          dat je prima je tijd kan vermaken met wat drankjes in de avond.
-          Proost!
+          Deze is voor Pleun. Ik was te jong om toen der tijd hiervan te
+          genieten, maar ik verneem dat je prima je tijd kan vermaken met wat
+          drankjes in de avond. Proost!
         </>
       ),
       image: barImg,
