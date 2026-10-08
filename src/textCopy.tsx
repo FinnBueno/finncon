@@ -43,7 +43,7 @@ export const textCopy = {
           40 Av. de l'Europe, Frankrijk
         </a>
         . Om een sfeerbeeld van het verblijf te krijgen kun je{" "}
-        <a href="/finncon/verblijf.html">hier kijken</a>.
+        <a href="/verblijf.html">hier kijken</a>.
       </p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.8364567147273!2d-1.1475122233452906!3d45.37229513956548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48018ea95d84164f%3A0xb3bbf15a4ab62650!2s40%20Av.%20de%20l'Europe%2C%2033930%20Vendays-Montalivet%2C%20France!5e0!3m2!1sen!2snl!4v1791398310336!5m2!1sen!2snl"
@@ -99,9 +99,8 @@ export const textCopy = {
   whatToDo: (
     <>
       <p>
-        Goeie vraag! Best veel, kijk{" "}
-        <a href="/finncon/activiteiten.html">hier</a> voor een lijst met
-        inspiratie.
+        Goeie vraag! Best veel, kijk <a href="/activiteiten.html">hier</a> voor
+        een lijst met inspiratie.
       </p>
     </>
   ),
