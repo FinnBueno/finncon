@@ -6,16 +6,46 @@ type Props = {
   id: string;
   title: string;
   description: ReactNode | string;
+  image?: string;
+  alt?: string;
 };
 
-export const Section: FC<Props> = ({ id, title, description }) => (
+export const Section: FC<Props> = ({ id, title, description, image, alt }) => (
   <PageSection id={id} aria-labelledby={`${id}-title`}>
-    <Container>
-      <SectionTitle id={`${id}-title`}>{title}</SectionTitle>
-      <SectionDescription>{description}</SectionDescription>
-    </Container>
+    <Flexbox>
+      <FlexChild size={2}>
+        <SectionTitle id={`${id}-title`}>{title}</SectionTitle>
+        <SectionDescription>{description}</SectionDescription>
+      </FlexChild>
+      {image && alt ? (
+        <FlexChild>
+          <Image src={image} alt={alt} />
+        </FlexChild>
+      ) : (
+        <></>
+      )}
+    </Flexbox>
   </PageSection>
 );
+
+const FlexChild = styled(Container)<{ size?: number }>`
+  display: flex;
+  flex: ${(props) => props.size ?? 1};
+  justify-content: center;
+  flex-direction: column;
+`;
+
+const Image = styled.img`
+  flex: 1;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+`;
+
+const Flexbox = styled(Container)`
+  display: flex;
+  flex-direction: row;
+`;
 
 const PageSection = styled.section`
   padding-block: 64px;

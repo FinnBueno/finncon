@@ -4,6 +4,8 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Section } from "./components/Section";
 import { textCopy } from "./textCopy";
+import what from "./assets/images/what.jpg";
+import kassaImg from "./assets/images/kassa.jpg";
 
 const App: FC = () => (
   <>
@@ -16,6 +18,8 @@ const App: FC = () => (
         id="about"
         title="Wat is dit?"
         description={textCopy.whatIsThis}
+        image={what}
+        alt="intro"
       />
       <Section id="dates" title="Wanneer?" description={textCopy.whenIntro} />
       <Section
@@ -27,6 +31,13 @@ const App: FC = () => (
         id="transport"
         title="Hoe kom ik er?"
         description={textCopy.gettingThere}
+        image={kassaImg}
+        alt="Kassa"
+      />
+      <Section
+        id="transport"
+        title="Wat kost dat dan?"
+        description={textCopy.costs}
       />
       <Section
         id="transport"

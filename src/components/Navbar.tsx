@@ -13,8 +13,9 @@ export const Navbar: FC = () => (
       <BSNavbar.Collapse id="site-navigation">
         <Navigation>
           <NavigationLink href="/verblijf.html">Verblijf</NavigationLink>
-          <NavigationLink href="#programme">Programme</NavigationLink>
-          <NavigationLink href="#visit">Visit</NavigationLink>
+          <NavigationLink href="/activiteiten.html">
+            Activiteiten
+          </NavigationLink>
         </Navigation>
       </BSNavbar.Collapse>
     </Container>
@@ -37,6 +38,10 @@ const SiteName = styled(BSNavbar.Brand)`
   color: white;
 
   &:hover {
+    color: white;
+  }
+
+  &:focus {
     color: white;
   }
 `;

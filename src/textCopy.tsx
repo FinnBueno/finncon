@@ -1,14 +1,22 @@
 export const textCopy = {
-  whatIsThis: `
-  Zoals je gehoord hebt gaat Viencon in 2027 niet door 😔 Dat betekent dat we gedwongen zijn het heft in eigen handen te nemen. Daarom nodig ik jullie graag uit voor "Finncon"! Eind zomer 2027 vindt dit plaats in het vakantiehuis van mijn familie om een onvergetelijke zomerweek te beleven. Deze is te vinden in het mooie zuid-westen van Frankrijk en bied vele opties ter vermaak. Lees verder!
-  `,
+  whatIsThis: (
+    <p>
+      Zoals je gehoord hebt gaat Viencon in 2027 niet door 😔 Dat betekent dat
+      we gedwongen zijn het heft in eigen handen te nemen. Daarom nodig ik
+      jullie graag uit voor "Finncon"! Eind zomer 2027 vindt dit plaats in het
+      vakantiehuis van mijn familie om een onvergetelijke zomerweek te beleven.
+      Deze is te vinden in het mooie zuid-westen van Frankrijk en bied vele
+      opties ter vermaak. Lees verder!
+    </p>
+  ),
   whenIntro: (
     <>
       <p>
-        Er zijn nog geen exacte data, maar het zal plaatsvinden in week 34 en 35
-        van 2027. Het idee is dat ik (Finn) begin week 34 naar locatie ga, en
-        vanaf mijn aankomst zijn mensen welkom. Ik vertek vervolgens weer ergens
-        aan het eind van week 35, en daarvoor dient iedereen vertrokken te zijn.
+        Er zijn nog geen exacte data, maar het zal plaatsvinden in{" "}
+        <b>week 34 en 35 van 2027</b>. Het idee is dat ik (Finn) begin week 34
+        naar locatie ga, en vanaf mijn aankomst zijn mensen welkom. Ik vertek
+        vervolgens weer ergens aan het eind van week 35, en daarvoor dient
+        iedereen vertrokken te zijn.
       </p>
       <p>
         De exacte opening en closing dates worden nog bekend gemaakt (dit jaar
@@ -72,6 +80,15 @@ export const textCopy = {
         vliegveld op te pikken. Mochten veel mensen voor deze optie kiezen, is
         het wel handig de aankomst en vertrek momenten ietwat af te stemmen
         zodat ik niet 6 keer op en neer hoef.
+      </p>
+    </>
+  ),
+  costs: (
+    <>
+      <p>
+        In principe niks! Natuurlijk moeten we eten, en wil je wat uitgeven, en
+        je moet er komen enzo, maar het verblijf zelf is gratis. Hoe we het doen
+        met boodschappen en gezamenlijk avondeten vogelen we nog wel even uit.
       </p>
     </>
   ),

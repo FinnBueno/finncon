@@ -1,4 +1,4 @@
-import { Container, Navbar } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import styled from "styled-components";
 import { Section } from "./components/Section";
 import mainHouseOne from "./assets/images/main-house-1.jpeg";
@@ -6,6 +6,7 @@ import mainHouseTwo from "./assets/images/main-house-2.jpeg";
 import guestHouseOne from "./assets/images/guest-house-1.jpeg";
 import guestHouseTwo from "./assets/images/guest-house-2.jpeg";
 import pool from "./assets/images/pool.jpg";
+import { Navbar } from "./components/Navbar";
 
 export const VerblijfPage = () => (
   <Page>
@@ -98,19 +99,6 @@ const Page = styled.div`
   min-height: 100vh;
   color: #282522;
   background: #f8f5ef;
-`;
-
-const TopBar = styled.header`
-  padding-block: 14px;
-  background: #8a2334;
-`;
-
-const Brand = styled.a`
-  color: #fff;
-  font-family: Georgia, serif;
-  font-size: 25px;
-  font-weight: 700;
-  text-decoration: none;
 `;
 
 const Intro = styled.section`

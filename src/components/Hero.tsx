@@ -6,7 +6,8 @@ export const Hero = () => (
   <EventHero id="home" aria-labelledby="event-title">
     <Logo src={logo} alt="logo" />
     <HeroTitle id="event-title">FinnCon</HeroTitle>
-    <HeroDescription>Zon, zee, en seks.</HeroDescription>
+    <HeroDates>2027, week 34 & 35*</HeroDates>
+    {/* <HeroDescription>Zon, zee, seks.</HeroDescription> */}
     <ProgrammeButton variant="light" href="#about" role="link">
       Lees verder
     </ProgrammeButton>
@@ -52,6 +53,17 @@ const HeroTitle = styled.h1`
 
   @media (max-width: 767px) {
     font-size: 52px;
+  }
+`;
+
+const HeroDates = styled.h3`
+  /* font-family: "Irish Grover", cursive; */
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 28px;
+
+  @media (max-width: 767px) {
+    font-size: 32px;
   }
 `;
 
