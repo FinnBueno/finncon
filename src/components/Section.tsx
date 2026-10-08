@@ -45,6 +45,10 @@ const Image = styled.img`
 const Flexbox = styled(Container)`
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 `;
 
 const PageSection = styled.section`
