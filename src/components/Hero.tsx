@@ -66,13 +66,3 @@ const HeroDates = styled.h3`
     font-size: 32px;
   }
 `;
-
-const HeroDescription = styled.p`
-  font-size: 22px;
-  max-width: 480px;
-  margin-bottom: 28px;
-
-  @media (max-width: 767px) {
-    font-size: 20px;
-  }
-`;
