@@ -197,7 +197,7 @@ export const ActiviteitenPage = () => (
     <main>
       <Intro>
         <Container>
-          <BackLink href="/finncon">&larr; Terug naar FinnCon</BackLink>
+          <BackLink href="/">&larr; Terug naar FinnCon</BackLink>
           <Title>Activiteiten</Title>
         </Container>
       </Intro>
